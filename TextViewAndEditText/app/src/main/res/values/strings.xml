@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TextViewAndEditText</string>
+    <string name="hello_world">Hello world! Hello world! Hello world! Hello world!</string>
+    <string name="tv02">13711111223</string>
+    <string name="tv03">http://www.baidu.com</string>
+    <string name="tv04">111@111.com</string>
+    <string name="tv05">10086</string>
+    <string name="input">请输入内容</string>
+</resources>

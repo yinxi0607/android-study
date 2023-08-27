@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_weight="1"
+        android:background="#aa0000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_weight="2"
+        android:background="#0011aa"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:background="#4daa00"/>
+
+</LinearLayout>
+
+
+<!--
+    假设屏幕的宽度为x
+    第一次 确定屏幕宽度   textview 1 x  textview2 x  textview3 x
+    第二次 剩余的空间   a = x-x-x-x = -2x    剩余的空间= 手机的宽度-控件的宽度
+            控件的宽度 = 控件的宽度+（当前控件的权重值/设置的权重总值）* 剩余的空间
+
+            textview1 = x+(1/5)*(-2x) = 3/5
+            textview2 = x+(2/5)*(-2x) = 1/5
+            textview3 = x+(2/5)*(-2x) = 1/5
+
+-->

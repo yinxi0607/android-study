@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--
+       引用style   style="@style/xxx" 表示引用当前指定id的样式
+       注意：如果控件标签中及存在引用样式也存在属性设置，以属性设置为准
+    -->
+
+    <Button
+        android:id="@+id/btn01"
+        style="@style/button_style"
+        android:text="@string/btn_name" />
+
+    <Button
+        android:id="@+id/btn02"
+        android:text="@string/btn_name"
+        style="@style/button_style2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:id="@+id/btn03"
+        android:text="@string/btn_name"
+        style="@style/button_style.btn_style"
+        />
+
+
+</LinearLayout>

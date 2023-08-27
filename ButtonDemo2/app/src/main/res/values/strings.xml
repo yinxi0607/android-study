@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButtonDemo2</string>
+    <string name="btn_name">点击</string>
+    <string name="btn_name2">再次点击</string>
+</resources>

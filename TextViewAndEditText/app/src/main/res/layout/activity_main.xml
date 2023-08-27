@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textColor="#aa0000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:drawableTop="@drawable/ic_launcher_foreground"
+        />
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv02"
+        android:layout_below="@id/tv01"
+        android:autoLink="phone"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv03"
+        android:layout_below="@id/tv02"
+        android:autoLink="web"
+
+        />
+
+    <TextView
+        android:id="@+id/tv04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv04"
+        android:layout_below="@id/tv03"
+        android:autoLink="email"
+
+        />
+
+
+    <!--
+    android:text 表示设置textview控件的文本信息  @string/hello_world  res/values/strings/xml
+    android:textColor 表示设置textview控件中文本字体颜色  RGB的形式
+    android:textSize  设置textview控件中文本字体大小  单位使用sp
+    android:textStyle 设置文本样式  bold表示加粗
+    android:singleLine 表示文本单行显示
+    android:drawableTop  表示设置textview控件上方显示的图片
+
+    android:autoLink 表示textview中的文本添加可点击的超链接   none  web   email   phone  map   all
+    -->
+
+
+</RelativeLayout>

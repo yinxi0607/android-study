@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.test.niuhongbin.contextmenudemo.MainActivity">
+    <item
+        android:id="@+id/action_get_width"
+        android:title="@string/action_width" />
+    <item
+        android:id="@+id/action_get_hight"
+        android:title="@string/action_height" />
+</menu>

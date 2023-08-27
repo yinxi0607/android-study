@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomDialogDemo</string>
+    <string name="btn_show">Show Dialog!!!</string>
+    <string name="tv_titile">哎呦我去</string>
+    <string name="et_pwd">请输入你的密码</string>
+    <string name="et_name">请输入你的名字</string>
+</resources>

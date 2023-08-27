@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityLaunchMode</string>
+    <string name="btn_start_01">启动01</string>
+    <string name="btn_start_02">启动02</string>
+    <string name="tv_otheractivity">OtherActivity</string>
+    <string name="tv_mainactivity">MainActivity</string>
+</resources>

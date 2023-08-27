@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CreateActivity</string>
+    <string name="tv_show">我是OtherActivity</string>
+    <string name="btn_name">点击跳转到other</string>
+</resources>

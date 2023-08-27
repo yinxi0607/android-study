@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="tv_name">请选择您的爱好</string>
+    <string name="hobby_name01">游泳</string>
+    <string name="hobby_name02">唱歌</string>
+    <string name="hobby_name03">电影</string>
+    <string name="hobby_name04">游戏</string>
+    <string name="hobby_name05">小说</string>
+    <string name="btn_ok">确认</string>
+    <string name="hobby_all">全选</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewPagerFragmentDemo</string>
+    <string-array name="pts_name">
+        <item>狗子</item>
+        <item>吃翔</item>
+        <item>滚</item>
+        <item>酸梅</item>
+        <item>杯子</item>
+    </string-array>
+</resources>

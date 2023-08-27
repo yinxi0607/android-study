@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoCompleteTextViewDemo</string>
+    <string-array name="country">
+        <item>Afghanistan</item>
+        <item>Alanian</item>
+        <item>Algeria</item>
+        <item>American</item>
+        <item>Andorra</item>
+        <item>Anguilla</item>
+        <item>China</item>
+    </string-array>
+    <string name="acltv_text">请输入一个国家</string>
+</resources>

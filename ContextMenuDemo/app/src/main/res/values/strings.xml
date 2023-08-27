@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContextMenuDemo</string>
+    <string name="action_width">获取控件的宽度</string>
+    <string name="action_height">获取控件的高度</string>
+</resources>

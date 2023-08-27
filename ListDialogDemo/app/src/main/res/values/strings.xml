@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListDialogDemo</string>
+    <string name="tv_example">字体样例</string>
+    <string-array name="font_names">
+        <item>小号字体</item>
+        <item>中号字体</item>
+        <item>大号字体</item>
+        <item>特大号字体</item>
+    </string-array>
+    <integer-array name="font_sizes">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>40</item>
+    </integer-array>
+</resources>

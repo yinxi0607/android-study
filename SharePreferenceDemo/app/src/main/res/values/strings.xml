@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharePreferenceDemo</string>
+    <string name="et_name">请输入你的名字</string>
+    <string name="et_age">请输入你的年龄</string>
+    <string name="btn_save">保存参数</string>
+    <string name="btn_recover">恢复参数</string>
+</resources>

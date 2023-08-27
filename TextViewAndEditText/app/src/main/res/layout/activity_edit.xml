@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/eml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input"
+        android:maxLength="10"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionGo"
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input"
+        android:maxLength="10"
+        android:layout_below="@id/eml"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input"
+        android:maxLength="10"
+        android:layout_below="@id/pwd"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        />
+
+    <!--
+    android:hint  设置文本框提示信息
+    android:maxLength  设置文本框最大字符数
+    android:password 设置为true表示为密码框
+    android:inputType 设置当前文本框的输入类型  软键盘的弹出类型
+
+
+    android:imeOptions 设置软件盘中的完成键为相应的功能键   actionSearch 查询    actionSend 发送  actionDone 完成   actionNext 下一个
+
+    -->
+
+</RelativeLayout>

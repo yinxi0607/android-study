@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityLifycle</string>
+    <string name="btn_name">点击跳转</string>
+    <string name="helloworld">Hello World!!!</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityPassValue</string>
+    <string name="btn_name">点击传值</string>
+</resources>
+

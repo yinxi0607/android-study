@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#aa0000"
+        android:text="Hello World!"/>
+<!--android:background 设置背景颜色
+    android:layout_width="wrap_content" 控件宽度
+    android:layout_height="wrap_content" 控件高度
+    wrap_content 表示包裹内容
+    match_parent 表示填充父控件
+    指定一个固定的值 用数字代表相应的像素  比如android:layout_width="150dp"  150独立像素
+    android:orientation="horizontal" 表示摆放方向 默认是水平  vertical 为垂直摆放
+
+-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#aa0000"
+        android:text="Hello World!"/>
+
+
+
+</LinearLayout>

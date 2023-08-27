@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#aa0000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="#00aa00"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <!--指定兄弟元素的资源id #id/xxx
+    android:layout_below 表示当前空间位于指定id控件的下方
+    android:layout_above 表示当前空间位于指定id控件的上方
+    android:layout_toRightOf 表示当前空间位于指定id控件的右方
+    android:layout_toLeftOf 表示当前空间位于指定id控件的左方
+
+    android:layout_alignTop       表示当前空间位于指定id控件的顶部对齐
+    android:layout_alignBottom    表示当前空间位于指定id控件的底部对齐
+    android:layout_alignLeft      表示当前空间位于指定id控件的左侧对齐
+    android:layout_alignRight     表示当前空间位于指定id控件的右侧对齐
+    android:layout_alignBaseLine  表示当前空间位于指定id控件的基线对齐
+
+
+    相对于父布局指定位置 true/false
+    android:layout_centerInParent="true"    表示父布局正中心
+    android:layout_centerHorizontal="true"  表示父布局水平居中位置
+    android:layout_centerVertical="true"  表示父布局水平居中位置
+    android:layout_alignParentBottom="true"  表示父布局底部
+    android:layout_alignParentTop="true"  表示父布局顶部
+    android:layout_alignParentLeft="true"  表示父布局左侧
+    android:layout_alignParentRight="true"  表示父布局右侧
+    android:layout_alignParentEnd="true"  表示父布局
+
+    -->
+
+</RelativeLayout>

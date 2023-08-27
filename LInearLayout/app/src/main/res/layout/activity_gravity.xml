@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="hello world"
+        android:background="#00aa00"
+        android:layout_gravity="center"
+        />
+
+    <!--
+    android:layout_gravity 表示这是view在起附件view中的对其方式
+    android:gravity 表示如果在viewgroup中设置表示viewgroup中view控件的对齐方式  如果在view控件中设置表示控件内容与控件的对齐方式
+                    总结：内容与该控件的对齐方式
+    -->
+
+</LinearLayout>

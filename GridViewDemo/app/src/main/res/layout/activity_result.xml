@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:id="@+id/gv01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        >
+
+    </GridView>
+
+    <!--android:numColumns="auto_fit" 表示gridview中一行中展示item的列数  auto——fit 根据手机屏幕的宽度由系统设置比较理想的列数
+    android:columnWidth="80dp" 这是列宽
+    android:horizontalSpacing="10dp" 设置列之间的间距
+    android:verticalSpacing="10dp"   这是行之间的间距
+    -->
+</LinearLayout>

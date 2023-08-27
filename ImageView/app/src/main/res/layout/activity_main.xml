@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/head"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:adjustViewBounds="true"
+        />
+
+    <!--src 设置imageview 控件中图片的来源 @mipmap/xxx
+
+    android:adjustViewBounds="true" 运行设置imageview调整自己的边界保持显示图片的长宽比例
+    android:maxHeight="100dp" 设置图片的最大高度
+    android:maxWidth="100dp" 设置图片最大宽度
+    -->
+
+</android.support.constraint.ConstraintLayout>

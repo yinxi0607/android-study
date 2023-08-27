@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewHeaderAndFooterDemo</string>
+    <string name="tv_nodata">暂时没有数据</string>
+    <string name="btn_dl">加载更多....</string>
+</resources>

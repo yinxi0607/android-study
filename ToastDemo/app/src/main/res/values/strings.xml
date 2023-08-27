@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToastDemo</string>
+    <string name="btn_name">点击弹出Toast</string>
+    <string name="btn_name2">更改Toast位置</string>
+</resources>

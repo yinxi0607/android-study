@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <!--定义了一个字符串类型的数组-->
+    <string-array name="plantes_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Nptune</item>
+    </string-array>
+</resources>

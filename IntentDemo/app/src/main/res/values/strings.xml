@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentDemo</string>
+    <string name="tv_hello_world">Hello World!!!</string>
+    <string name="btn_call">拨打电话</string>
+    <string name="btn_send">发送短信</string>
+    <string name="btn_openview">打开网页</string>
+    <string name="btn_music">播放音乐</string>
+</resources>

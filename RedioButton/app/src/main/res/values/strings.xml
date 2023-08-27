@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RedioButton</string>
+    <string name="remind">您是帅锅还是镁铝呢？</string>
+    <string name="rdmale">帅锅</string>
+    <string name="rdfemale">镁铝</string>
+    <string name="rdother">其他</string>
+    <string name="btn_name">确定</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lv01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--
+        android:entries="@array/citys" 表示指定id的数组资源设置显示到listview中
+        android:dividerHeight="2dp"    表示设置item之间的间距高度
+        android:divider="#aa0000"      表示设置item之间间距的颜色
+        android:headerDividersEnabled="true" 表示设置头部的线条
+        android:footerDividersEnabled="true" 表示设置尾部的线条
+    -->
+
+</RelativeLayout>

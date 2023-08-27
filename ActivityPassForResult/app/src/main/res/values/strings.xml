@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityPassForResult</string>
+    <string name="btn_calc">计算</string>
+    <string name="tv_equal">=</string>
+    <string name="tv_add">+</string>
+    <string name="btn_send">回传</string>
+</resources>
